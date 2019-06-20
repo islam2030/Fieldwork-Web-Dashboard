@@ -120,6 +120,10 @@
         background: rgba(0, 0, 0, 0.04);
     }
     
+    .color-light {
+        color: #8a8a8a;
+    }
+    
     .list {
         padding: 20px 10px;
     }
@@ -357,7 +361,6 @@
     }
     
     .wrapper {
-        overflow: hidden;
         position: relative;
     }
     
@@ -633,7 +636,6 @@
     
     .content-wrapper .title_page h2 {
         font-size: 14px;
-        color: rgba(56, 56, 56, 0.5);
         text-align: right;
         line-height: 24px;
         font-weight: bold;
