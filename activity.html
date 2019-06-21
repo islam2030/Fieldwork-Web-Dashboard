@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Notary : Dashboard</title>
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/material.css">
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/datatables.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="sidebar-mini layout-fixed">
+    <!-- start wrapper here -->
+    <div class="wrapper backgroundMark">
+        <nav class="main-header navbar navbar-expand-lg navbar-light bg-dark">
+            <a class="navbar-brand" href="#"> اللوحة الرئيسية </a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="image-top"> <img src="assets/img/person-placeholder.png" alt=""> </span> اسلام السيد
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <!-- start aside here -->
+        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+            <div class="sidelogo text-center">
+                <span class="image-top"> <img src="assets/img/MOB_Logo.png" alt=""> </span> تطبيق المسح الميداني
+            </div>
+            <div class="main-menu">
+                <ul class="list">
+                    <li>
+                        <a href="dashboard.html">
+                            <i class="material-icons icons">dashboard</i> الصفحة الرئيسيه
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="users.html">
+                            <i class="material-icons icons">group</i> المستخدمون
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="category.html">
+                            <i class="material-icons icons">table_chart</i> الاقسام
+                        </a>
+
+                    </li>
+                    <li class="active">
+                        <a href="#">
+                            <i class="material-icons icons">store_mall_directory</i> انشطة المحلات
+                        </a>
+
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- start content -->
+
+        <div class="content-wrapper">
+            <div class="container-fluid">
+                <div class="title_page">
+                    <h2> أنشطة المحلات > <span class="color-light"> اضافة نشاط </span></h2>
+                </div>
+                <div class="content">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card mb-0 pb-0">
+                                <a href="users.html">
+                                    <div class="card-header bg-dark text-right">
+                                        بيانات النشاط
+                                    </div>
+                                </a>
+                                <div class="card-body text-center">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-row">
+                                                <div class="form-group col-12">
+                                                    <input id="" type="text" class="inputMaterial" autofocus required>
+                                                    <span class="icons"> <i onclick="removeData()" class="material-icons">close</i> </span>
+                                                    <label class="label"> الاسم  </label>
+                                                </div>
+                                                <div class="form-group col-12">
+                                                    <input id="" type="text" class="inputMaterial" required>
+                                                    <label class="label"> الكود </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- start button action here -->
+            <div class="action_button">
+                <button class="btn waves-effect waves-light btn-blue action" type="submit" name="action"> حفظ
+                    <i class="material-icons right">save</i>
+                </button>
+            </div>
+        </div>
+
+        <script src="assets/js/jquery-3.1.1.min.js"></script>
+        <script src="assets/js/popper.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/datatables.js"></script>
+        <script src="assets/js/materialize.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/custom.js"></script>
+</body>
+
+</html
