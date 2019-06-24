@@ -524,6 +524,7 @@
         right: 0;
         bottom: 0;
         float: none;
+        overflow: auto;
     }
     
     .sidebar-dark-primary {
@@ -629,7 +630,7 @@
     }
     
     .main-menu {
-        padding: 30px;
+        padding: 5px 30px;
     }
     
     .list {
@@ -641,13 +642,13 @@
     .list li {
         text-align: center;
         display: block;
-        margin: 15px 0;
+        margin: 10px 0;
     }
     
     .list li a {
         text-align: center;
         display: block;
-        padding: 15px 0;
+        padding: 10px 0;
         font-size: 15px;
         color: rgba(255, 255, 255, 0.6);
         transition: all 0.3s ease-in-out;
